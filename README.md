@@ -1,20 +1,27 @@
-# Calculator app
-## The purpose of this graded assessment
-The primary purpose of a graded assessment is to check your knowledge and understanding of the key learning objectives of the course you have just completed. Most importantly, graded assessments help you establish which topics you have mastered and which require further focus before completing the course. Ultimately, the graded assessment is designed to help you make sure that you can apply what you have learned. This assessment's learning objective is to allow you to create a React application or App.
-## Prepare for this graded assessment
-You will have already encountered exercises, knowledge checks, in-video questions and other assessments as you have progressed through the course. The 'styling a page' ungraded lab from Module 2 is the foundation for this assessment.
+# Calculator - Vue 3 + TypeScript + Vite
 
-The graded assessment requires you to complete a calculator in React. You will be provided with code snippets, and your task is to use these, plus any of your code to complete the calculator that can perform the four basic mathematical operations: addition, subtraction, multiplication, and division.
+This is a simple calculator built with Vue 3 and TypeScript that can perform the four basic mathematical operations: addition, subtraction, multiplication, and division. Once a user types into the input field, they will then have to update the total by pressing any of the four math operation buttons:
 
-It will also have a single input button, which will accept user input (any number) and a total starting with a zero.
-
-Once a user types into the input field, they will then have to update the total by pressing any of the four math operation buttons:
-- addition 
-- subtraction 
-- multiplication 
+- addition
+- subtraction
+- multiplication
 - division
 
-Here's a diagram of the completed calculator app:
-<img src='./public/Fa6fi9AMSG-un4vQDKhvhw_d1e86668bffd4747921c4c1deb34b8e1_MicrosoftTeams-image-6-.png'>
-Calculator App display with options for calculation and number entry field
-Nothing in the graded assessment will be outside what you have covered already, so you should be well placed to succeed.
+## About Vue 3 + TypeScript
+
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+## Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Type Support For `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+
+1. Disable the built-in TypeScript Extension
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
